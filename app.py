@@ -155,8 +155,8 @@ with st.sidebar:
     shape = st.radio(
         "Penampang",
         [
-            "Lingkaran (diameter)",
-            "Segiempat (lebar x tebal)"
+            "Lingkaran",
+            "Segiempat"
         ]
     )
 
