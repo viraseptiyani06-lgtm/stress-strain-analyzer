@@ -63,7 +63,7 @@ with st.sidebar:
         st.caption("✅ Memakai data contoh (baja dummy)")
 
     st.header("2. Spesimen")
-  shape = st.radio("Penampang", ["Lingkaran (diameter)", "Segiempat (lebar x tebal)"])
+shape = st.radio("Penampang", ["Lingkaran", "Segiempat"])
     if shape.startswith("Lingkaran"):
         d = st.number_input("Diameter awal (mm)", 0.1, 100.0, 6.0)
         a0 = np.pi * d**2 / 4
